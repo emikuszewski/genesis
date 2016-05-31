@@ -14,7 +14,7 @@ Where sandbox is used to validate that deployments are sane, test
 stemcell upgrades, etc., preprod enables integration and
 acceptance testing, and prod is the thing that shouldn't break.
 For reasons of sanity, these environments should all be deployed
-on similar infrastructure, like Amazon EC2 or a hosted VMWare ESXi
+on similar infrastructure, like Amazon EC2 or a hosted VMware ESXi
 cluster.
 
 Challenge arise when you need to make changes to the "common
